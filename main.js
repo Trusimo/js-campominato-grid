@@ -22,3 +22,11 @@ function createGrid(CelleX, CelleY) {
 }
 // funzione che crea la griglia di 10cellex10celle
 createGrid(10, 10);
+
+    // Genero i numeri da inserire dentro le celle
+    const numerigenerati = [];
+    for (let i = 1; i <= 100; i++) {
+        numerigenerati.push(i);
+    }
+    console.log(numerigenerati);
+    // Come inserisco i numeri dentro le celle?
