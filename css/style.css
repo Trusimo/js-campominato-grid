@@ -11,3 +11,13 @@
     max-width: 500px;
     margin: auto;
 }
+
+.dsp-flex {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+main {
+    background-color: #7cffd2;
+}

@@ -10,7 +10,7 @@ function createGrid(CelleX, CelleY) {
     const celletotali = CelleX * CelleY;
     console.log(celletotali);
 
-    // creo il ciclo per fare ogni cella e creo le celle in html/css
+    // creo il ciclo per fare ogni cella e collego le celle a html/css
     for (let i = 0; i < celletotali; i++) {
     const celle = document.createElement("div");
     celle.classList.add("celle");
@@ -19,7 +19,6 @@ function createGrid(CelleX, CelleY) {
     gridContainer.append(celle);
     }
 
-    
 }
-
+// funzione che crea la griglia di 10cellex10celle
 createGrid(10, 10);
