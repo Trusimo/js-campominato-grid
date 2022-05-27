@@ -14,7 +14,6 @@ function createGrid(CelleX, CelleY) {
     for (let i = 0; i < celletotali; i++) {
     const celle = document.createElement("div");
     celle.classList.add("celle");
-    gridContainer.style.width = `calc(CelleX * CelleY)`;
 
     // appendo le celle al gridContainer
     gridContainer.append(celle);
