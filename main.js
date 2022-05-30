@@ -16,9 +16,15 @@ function createGrid(CelleX, CelleY) {
     celle.classList.add("celle");
     celle.textContent = i;
 
+    celle.addEventListener("click", function(){ 
+        celle.style.backgroundColor = "lightblue";
+    }
+    );
+
     // appendo le celle al gridContainer
     gridContainer.append(celle);
     }
+
 
 }
 // funzione che crea la griglia di 10cellex10celle
