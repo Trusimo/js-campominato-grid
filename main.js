@@ -11,9 +11,10 @@ function createGrid(CelleX, CelleY) {
     console.log(celletotali);
 
     // creo il ciclo per fare ogni cella e collego le celle a html/css
-    for (let i = 0; i < celletotali; i++) {
+    for (let i = 1; i <= celletotali; i++) {
     const celle = document.createElement("div");
     celle.classList.add("celle");
+    celle.textContent = i;
 
     // appendo le celle al gridContainer
     gridContainer.append(celle);
@@ -22,11 +23,3 @@ function createGrid(CelleX, CelleY) {
 }
 // funzione che crea la griglia di 10cellex10celle
 createGrid(10, 10);
-
-    // Genero i numeri da inserire dentro le celle
-    const numerigenerati = [];
-    for (let i = 1; i <= 100; i++) {
-        numerigenerati.push(i);
-    }
-    console.log(numerigenerati);
-    // Come inserisco i numeri dentro le celle?
